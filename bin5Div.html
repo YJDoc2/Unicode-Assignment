@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Binary Divisible by 5 Checker</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container mt-5 bg-info" style="border-radius: 25px;color: #fff">
+      <header class="p-2">
+        Binary Divisible By 5 Checker
+      </header>
+    </div>
+    <div class="container mt-2">
+      <input type="text" name="in" id="in" style="width: inherit" />
+      <button class="btn btn-primary mt-2" onclick="check()">Check</button>
+      <div id="resultBin" class="mt-2"></div>
+      <div id="resultDec" class="mt-2"></div>
+      <div
+        id="err"
+        class="bg-danger mt-2 pl-2"
+        style="border-radius: 25px;color: #fff"
+      ></div>
+    </div>
+    <script src="./bin5div.js"></script>
+  </body>
+</html>
